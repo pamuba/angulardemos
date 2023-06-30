@@ -3,3 +3,6 @@
 
 Attributes : HMTL, immutable, are used to initialize Properties
 Properties: DOM, mutable
+
+3. Class Binding(css class integration)
+4. Style Binding
