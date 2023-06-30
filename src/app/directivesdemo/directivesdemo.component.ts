@@ -11,6 +11,7 @@ export class DirectivesdemoComponent implements OnInit {
 
   public displayName = false
   public color = "orange"
+  public colors = ["red", "blue", "green", "yellow"]
   ngOnInit(): void {
   }
 

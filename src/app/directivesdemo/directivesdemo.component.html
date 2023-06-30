@@ -17,3 +17,7 @@
     <div [style.color]="color"  *ngSwitchCase="'orange'">The orange Color</div>
     <div *ngSwitchDefault>Try Again</div>
 </div>
+<hr>
+<div *ngFor="let color of colors; first as f; index as i; even as e; odd as o">
+    <h4 [style.color]="color">{{i}}. {{f}} {{color}} {{e}} {{o}}</h4>
+</div>
