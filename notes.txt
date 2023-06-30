@@ -6,3 +6,5 @@ Properties: DOM, mutable
 
 3. Class Binding(css class integration)
 4. Style Binding
+5. Template Reference Variable
+6. 2 WAY binding
