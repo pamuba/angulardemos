@@ -1,0 +1,5 @@
+1. Interpolation
+2. Property Binding
+
+Attributes : HMTL, immutable, are used to initialize Properties
+Properties: DOM, mutable
