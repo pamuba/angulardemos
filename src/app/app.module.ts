@@ -9,6 +9,7 @@ import { StylebindingComponent } from './stylebinding/stylebinding.component';
 import { TrvbindingComponent } from './trvbinding/trvbinding.component';
 import { TwowayComponent } from './twoway/twoway.component';
 import { FormsModule } from '@angular/forms';
+import { DirectivesdemoComponent } from './directivesdemo/directivesdemo.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FormsModule } from '@angular/forms';
     PropbindingComponent,
     StylebindingComponent,
     TrvbindingComponent,
-    TwowayComponent
+    TwowayComponent,
+    DirectivesdemoComponent
   ],
   imports: [
     BrowserModule,

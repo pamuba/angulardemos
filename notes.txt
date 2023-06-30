@@ -8,3 +8,10 @@ Properties: DOM, mutable
 4. Style Binding
 5. Template Reference Variable
 6. 2 WAY binding
+
+7. Directives(some directions for Angular to process)
+-adds or removes HTML elements
+Structural Directives
+1. ngIf
+2. ngSwitch
+3. ngFor

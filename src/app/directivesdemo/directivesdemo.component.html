@@ -1,0 +1,19 @@
+<p>Directives Works</p>
+<h3 *ngIf="displayName; then thenBlock; else elseBlock">
+    Hello John
+</h3>
+
+<ng-template #thenBlock>
+    <h2>The Then Block</h2>
+</ng-template>
+
+<ng-template #elseBlock>
+    <h2>Name id Hidden</h2>
+</ng-template>
+<hr>
+<div [ngSwitch]="color">
+    <div [style.color]="color" *ngSwitchCase="'red'">The Red Color</div>
+    <div [style.color]="color"  *ngSwitchCase="'blue'">The blue Color</div>
+    <div [style.color]="color"  *ngSwitchCase="'orange'">The orange Color</div>
+    <div *ngSwitchDefault>Try Again</div>
+</div>
