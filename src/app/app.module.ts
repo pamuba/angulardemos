@@ -13,6 +13,8 @@ import { DirectivesdemoComponent } from './directivesdemo/directivesdemo.compone
 import { ParentcomponentComponent } from './parentcomponent/parentcomponent.component';
 import { ChildcomponentComponent } from './childcomponent/childcomponent.component';
 import { PipesComponent } from './pipes/pipes.component';
+import { EmployeeListComponent } from './employee-list/employee-list.component';
+import { EmployeeDetailComponent } from './employee-detail/employee-detail.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { PipesComponent } from './pipes/pipes.component';
     DirectivesdemoComponent,
     ParentcomponentComponent,
     ChildcomponentComponent,
-    PipesComponent
+    PipesComponent,
+    EmployeeListComponent,
+    EmployeeDetailComponent
   ],
   imports: [
     BrowserModule,
