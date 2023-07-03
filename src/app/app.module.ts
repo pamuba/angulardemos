@@ -10,6 +10,9 @@ import { TrvbindingComponent } from './trvbinding/trvbinding.component';
 import { TwowayComponent } from './twoway/twoway.component';
 import { FormsModule } from '@angular/forms';
 import { DirectivesdemoComponent } from './directivesdemo/directivesdemo.component';
+import { ParentcomponentComponent } from './parentcomponent/parentcomponent.component';
+import { ChildcomponentComponent } from './childcomponent/childcomponent.component';
+import { PipesComponent } from './pipes/pipes.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { DirectivesdemoComponent } from './directivesdemo/directivesdemo.compone
     StylebindingComponent,
     TrvbindingComponent,
     TwowayComponent,
-    DirectivesdemoComponent
+    DirectivesdemoComponent,
+    ParentcomponentComponent,
+    ChildcomponentComponent,
+    PipesComponent
   ],
   imports: [
     BrowserModule,

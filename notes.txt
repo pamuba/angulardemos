@@ -15,3 +15,9 @@ Structural Directives
 1. ngIf
 2. ngSwitch
 3. ngFor
+
+8. Component Interaction
+9. Pipes
+10. Services(Observables)
+11. Routing
+12. Forms
