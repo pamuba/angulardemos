@@ -17,6 +17,7 @@ import { EmployeeListComponent } from './employee-list/employee-list.component';
 import { EmployeeDetailComponent } from './employee-detail/employee-detail.component';
 import { EmployeeService } from './employee.service';
 import { HttpClientModule } from '@angular/common/http';
+// import { DepartmentDetailComponent } from './department-detail/department-detail.component';
 // import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 // import { DepartmentListComponent } from './department-list/department-list.component';
 // import { EmployeeListsComponent } from './employee-lists/employee-lists.component';
