@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FirstComponent } from './first/first.component';
 import { PropbindingComponent } from './propbinding/propbinding.component';
@@ -17,6 +17,9 @@ import { EmployeeListComponent } from './employee-list/employee-list.component';
 import { EmployeeDetailComponent } from './employee-detail/employee-detail.component';
 import { EmployeeService } from './employee.service';
 import { HttpClientModule } from '@angular/common/http';
+// import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+// import { DepartmentListComponent } from './department-list/department-list.component';
+// import { EmployeeListsComponent } from './employee-lists/employee-lists.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +34,8 @@ import { HttpClientModule } from '@angular/common/http';
     ChildcomponentComponent,
     PipesComponent,
     EmployeeListComponent,
-    EmployeeDetailComponent
+    EmployeeDetailComponent,
+    routingComponents,
   ],
   imports: [
     BrowserModule,

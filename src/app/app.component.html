@@ -1,5 +1,11 @@
 <div class="container">
   <h1>Welcome To The App</h1>
+  <h2>Routing And Navigation</h2>
+  <hr>
+  <nav>
+    <a routerLink="/departments" routerLinkActive="active">Deparments</a>
+    <a routerLink="/employees" routerLinkActive="active">Employees</a>
+  </nav>
   <!-- <app-first></app-first> -->
   <!-- <app-propbinding></app-propbinding> -->
   <!-- <app-stylebinding></app-stylebinding> -->
@@ -8,6 +14,7 @@
   <!-- <app-directivesdemo></app-directivesdemo> -->
   <!-- <app-parentcomponent></app-parentcomponent> -->
   <!-- <app-pipes></app-pipes> -->
-  <app-employee-list></app-employee-list>
-  <app-employee-detail></app-employee-detail>
+  <!-- <app-employee-list></app-employee-list> -->
+  <!-- <app-employee-detail></app-employee-detail> -->
+  <router-outlet></router-outlet>
 </div>
